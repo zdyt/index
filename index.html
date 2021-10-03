@@ -7,9 +7,9 @@
 	<meta name="google-site-verification" content="0YsgfJJYozkk998KbvJDH59XeeqfgojBobM8L-CuP1c">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta itemprop="name" content="">
-	<meta itemprop="image" content="/picture/SN.png">
-	<meta name="keywords" content="香农网络工作室,香农资源库,网站搭建,源码,软件">
-	<meta name="description" itemprop="description" content="香农网络工作室，专注于互联网技术服务。">
+	<meta itemprop="image" content="picture/SN.png">
+	<meta name="keywords" content="香农资源库,香农网络工作室,q绑查询,社工库查询,源码下载,软件下载,书籍下载,IT技术网赚教程">
+	<meta name="description" itemprop="description" content="香农资源库，资源全都有。">
 	<link rel="shortcut icon" href="picture/SN.png">
 	<link rel="stylesheet" href="css/style.css">
 	<script>
@@ -24,16 +24,13 @@
 		
 	<link rel="stylesheet" href="css/link.css">
 	<script src="js/jquery-3.2.1.min.js"></script>
-	<title>香农网络工作室</title>
+	<title>资源库</title>
 	<script>
-		$(function(){
-			$("a[href='']").hide();
-		}
-		);
+		
 		function about(){
 			$("#info").html("")//清空info内容
 			$("#info").append(
-				'<div class="content"><div class="header"><img src="http://q1.qlogo.cn/g?b=qq&nk=1931122824&s=640" alt=""></div>'
+				'<div class="content"><div class="header"><img src="http://q1.qlogo.cn/g?b=qq&nk=2869003001&s=640" alt=""></div>'
 			   +'<div class="quote"><i class="iconfont icon-Artboard1"></i><span>世界并不完美，却因此而美丽</span><i class="iconfont icon-Artboard"></i></div>'
 			   +'<div class="segment" style="border-color: rgb(245, 150, 170);"><div class="label" style="color: rgb(245, 150, 170);"><span>关于</span></div>'
 			   +'<div class="markdown about"><p>Hi，这里是我的主页！ 很荣幸您能访问我的网站！</p></div></div></div>'
@@ -43,10 +40,20 @@
 			$("#info").html("")//清空info内容
 			$("#info").append(
 				'<div class="content"><div class="quote"><i class="iconfont icon-Artboard1"></i>'
-				+'<img src="picture/weidian.jpg" alt="" width="238px"><span>微信扫码或点击链接购买卡密</span><span>'
-				+'<a href="https://faka.msdnxz.com" target="_blank">https://faka.msdnxz.com</a></span></span><i class="iconfont icon-Artboard"></i></div>'
+				+'<div class="layerPay" id="layerPay" style="margin-bottom: 0;text-align:center">'
+                                +'<a class="orderpaymethod" href="https://faka.msdnxz.com" target="_blank"><img src="https://faka.msdnxz.com/res/images/pay/alipay.jpg"></a><br/>'
+				+'<a class="orderpaymethod" href="https://weidian.com/?userid=1362999721&wfr=c&sfr=app&source=home_shop" target="_blank"><img src="https://faka.msdnxz.com/res/images/pay/weixin.jpg"></a>'
+		+'</div></span><i class="iconfont icon-Artboard"></i></div>'
 			    +'<div class="segment" style="border-color: rgb(245, 150, 170);"><div class="label" style="color: rgb(245, 150, 170);"><span>使用说明</span></div>'
-				+'<div class="markdown about"><p>卡密余额、次数、时间为叠加状态</p><p>余额只有在使用付费内容时会扣除</p><p>次数在每次使用卡密减一，次数消耗完不会影响余额和时间</p><p>时间在首次使用卡密时会生成失效时间</p><p>50元及以上卡密可以用于注册贵宾账号</p><img src="picture/jiage.png" alt="" width="238px"></div></div></div>'
+				+'<div class="markdown about"><p>5元代金卡密可同时用于查询服务30次，付费下载服务余额5元，授权服务时长30天。</p>'
++'<p>10元代金卡密可同时用于查询服务100次，付费下载服务余额10元，授权服务时长60天。</p>'
++'<p>50元代金卡密可同时用于查询服务1000次，付费下载服务余额50元，授权服务时长180天，可注册自动建站系统永久贵宾账户。</p>'
++'<div class="label" style="color: rgb(245, 150, 170);"><span>查询服务</span></div>'
++'<p>Q绑隐私泄露查询（<a href="https://z.msdnxz.com/web.php?id=KZpPrc8">https://z.msdnxz.com/web.php?id=KZpPrc8</a>）</P>'
++'<div class="label" style="color: rgb(245, 150, 170);"><span>付费下载服务</span></div>'
++'<p>16亿Q绑数据库+操作软件，一次购买永久使用（<a href="https://z.msdnxz.com/web.php?id=wfeuipf&appid=7">https://z.msdnxz.com/web.php?id=wfeuipf&appid=7</a>）</P>'
++'<div class="label" style="color: rgb(245, 150, 170);"><span>授权服务</span></div>'
++'<p>海外社工库，查开房（<a href="https://msdnxz.com/14650.html">https://msdnxz.com/14650.html</a>）</p><img src="https://z.msdnxz.com/guibin_zuyedaohang/picture/jiage.png" alt="" width="238px"></div></div></div>'
                         )
 		}
 		function fx(){
@@ -77,8 +84,8 @@
 	<div class="backstretch"></div>
 </div>
 <div class="container">
-	<header id="header"><a class="title router-link-active" href="javascript:;">ShannonStudios</a><span
-			class="subtitle">香农网络工作室</span>
+	<header id="header"><a class="title router-link-active" href="javascript:;">Resources</a><span
+			class="subtitle">香农资源库</span>
 		<nav class="menu">
 			<div class="list-h"><a href="javascript:location.reload();" target=""><img src="picture/导航.png">
 					<p>导航</p>
@@ -90,32 +97,32 @@
 					<p>关于</p>
 				</a>--><a href="javascript:;" onclick=gzh();><img src="picture/公众号.png">
 					<p>公众号</p>
-				</a><a href="https://blog.msdnxz.com" target="_blank"><img src="picture/博客.png">
+				</a><a href="https://zdyt.github.io/blog" target="_blank"><img src="picture/博客.png">
 					<p>博客</p>
 				</a></div>
 		</nav>
 	</header>
 	<div class="page" id="info">
 		
-		<ul class="content"><a href="https://z.msdnxz.com/web.php?id=KZpPrc8" target="_blank">
+		<ul class="content"><a href="https://zdyt.github.io/qb" target="_blank">
 				<li class="cursor"><img class="bg" src="picture/bj.jpg" alt="">
 					<div class="meta">
 						<div><img class="avatar" src="picture/SN.png" alt=""><span>隐私泄露查询</span></div>
 						<p> QQ手机号查老密码、微博、LOL、姓名、身份证、住址</p>
 					</div>
 				</li>
-			</a><a href="https://z.msdnxz.com/web.php?id=wfeuipf" target="_blank">
+			</a><a href="https://msdnxz.com" target="_blank">
 				<li class="cursor"><img class="bg" src="picture/bj.jpg" alt="">
 					<div class="meta">
 						<div><img class="avatar" src="picture/SN.png" alt=""><span>香农资源库</span></div>
 						<p> 各种精品独家资源，源码、数据库、资源打包</p>
 					</div>
 				</li>
-			</a><a href="https://blog.msdnxz.com" target="_blank">
+			</a><a href="https://zdyt.github.io/blog" target="_blank">
 				<li class="cursor"><img class="bg" src="picture/bj.jpg" alt="">
 					<div class="meta">
-						<div><img class="avatar" src="picture/SN.png" alt=""><span>香农网络工作室blog</span></div>
-						<p> 香农网络工作室博客，分享网赚及互联网开发案例、技术教程</p>
+						<div><img class="avatar" src="picture/SN.png" alt=""><span>香农资源库blog</span></div>
+						<p> 香农资源库博客，分享网赚及互联网开发案例、技术教程</p>
 					</div>
 				</li>
 			</a><a href="https://z.msdnxz.com/" target="_blank">
